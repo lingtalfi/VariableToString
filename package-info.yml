@@ -1,0 +1,4 @@
+dependencies:
+    - git::/lingtalfi/ArrayToString:1.0.0    (only if you use PhpDoc adaptor)
+ACPCompliantRanges:
+    - *
