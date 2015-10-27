@@ -19,6 +19,17 @@ Typically, you want to write an error message and add some additional informatio
 How to use it
 -------------------
 
+### Use the author object (recommended)
+
+```php
+$o = AuthorVariableToStringUtil::create();
+$o->toString($anyVar); // prints an informative string about the $anyVar
+```
+
+
+
+### Use a custom object
+ 
 ```php
 $o = VariableToStringUtil::create();
 $o->addAdaptor(new PhpTypeVariableToStringAdaptor());
@@ -254,11 +265,31 @@ resource(stream)
 ```   
 
 
+### Using AuthorVariableToStringUtil
+
+
+```
+string(hello)
+integer(789)
+double(789.122)
+true
+false
+null
+array(2)
+closure($m)
+callable(pou)
+object(ABC)
+callable(ABC->def())
+resource(stream)
+```   
+
+
 
 Dependencies
 ------------------
 
 - [lingtalfi/ArrayToString 1.0.0](https://github.com/lingtalfi/ArrayToString)
+- [lingtalfi/ReflectionRepresentation 1.0.0](https://github.com/lingtalfi/ReflectionRepresentation)
 
 
 
@@ -266,6 +297,11 @@ Dependencies
 History Log
 ------------------
     
+- 1.1.0 -- 2015-10-27
+
+    - Add CallableVariableToStringAdaptor
+        
+        
 - 1.0.0 -- 2015-10-27
 
     - initial commit
