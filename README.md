@@ -254,6 +254,15 @@ resource(stream)
 ```   
 
 
+
+Dependencies
+------------------
+
+- [lingtalfi/ArrayToString 1.0.0](https://github.com/lingtalfi/ArrayToString)
+
+
+
+
 History Log
 ------------------
     
