@@ -1,13 +1,13 @@
 <?php
 
-namespace VariableToString\Adaptor;
+namespace Ling\VariableToString\Adaptor;
 
 /*
  * LingTalfi 2015-10-27
  */
 
 
-use ReflectionRepresentation\ReflectionParameterUtil;
+use Ling\ReflectionRepresentation\ReflectionParameterUtil;
 
 class CallableVariableToStringAdaptor implements VariableToStringAdaptorInterface
 {

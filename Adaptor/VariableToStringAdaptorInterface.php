@@ -1,6 +1,6 @@
 <?php
 
-namespace VariableToString\Adaptor;
+namespace Ling\VariableToString\Adaptor;
 
 /*
  * LingTalfi 2015-10-26

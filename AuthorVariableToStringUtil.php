@@ -1,12 +1,12 @@
 <?php
 
-namespace VariableToString;
+namespace Ling\VariableToString;
 
 /*
  * LingTalfi 2015-10-27
  */
-use VariableToString\Adaptor\CallableVariableToStringAdaptor;
-use VariableToString\Adaptor\PhpTypeVariableToStringAdaptor;
+use Ling\VariableToString\Adaptor\CallableVariableToStringAdaptor;
+use Ling\VariableToString\Adaptor\PhpTypeVariableToStringAdaptor;
 
 class AuthorVariableToStringUtil extends VariableToStringUtil
 {

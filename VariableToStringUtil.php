@@ -1,11 +1,11 @@
 <?php
 
-namespace VariableToString;
+namespace Ling\VariableToString;
 
 /*
  * LingTalfi 2015-10-26
  */
-use VariableToString\Adaptor\VariableToStringAdaptorInterface;
+use Ling\VariableToString\Adaptor\VariableToStringAdaptorInterface;
 
 class VariableToStringUtil
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace VariableToString\Adaptor;
+namespace Ling\VariableToString\Adaptor;
 
 /*
  * LingTalfi 2015-10-27
  */
-use ArrayToString\ArrayToStringUtil;
-use ArrayToString\SymbolManager\InlineArgsArrayToStringSymbolManager;
+use Ling\ArrayToString\ArrayToStringUtil;
+use Ling\ArrayToString\SymbolManager\InlineArgsArrayToStringSymbolManager;
 
 class PhpDocVariableToStringAdaptor implements VariableToStringAdaptorInterface
 {
