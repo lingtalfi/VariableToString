@@ -1,7 +1,15 @@
 1.0.0: 
-    - Ling:ArrayToString:1.4.0
-    - Ling:ReflectionRepresentation:1.0.0
+    - Ling:ReflectionRepresentation:1.0.1
+    - Ling:ArrayToString:1.4.1
 
 1.1.0: 
-    - Ling:ArrayToString:1.4.0
-    - Ling:ReflectionRepresentation:1.0.0
+    - Ling:ReflectionRepresentation:1.0.1
+    - Ling:ArrayToString:1.4.1
+
+1.1.1: 
+    - Ling:ReflectionRepresentation:1.0.1
+    - Ling:ArrayToString:1.4.1
+
+1.1.2: 
+    - Ling:ReflectionRepresentation:1.0.2
+    - Ling:ArrayToString:1.4.2
